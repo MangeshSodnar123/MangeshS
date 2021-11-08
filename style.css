@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.navcontainer{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
 .navbar-brand{
     transition: all 0.2s linear;
     color: rgb(155, 21, 182);
@@ -18,12 +23,28 @@
     transform: scale(1.1);
 }
 
+.parentCard{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-1{
+    height: 400px;
+    width: 250px;
+    margin: 40px; 
+
+}
+.cardImg{
+    height: 200px;
+}
+
 .footerdiv{
     height: 20vh; /* it will take complete height in each device */
     display: flex;
     justify-content: center; /*it will align the content horizontaly center*/
     align-items: center;
-    /* background-color: rgb(238, 147, 28); */
+    /* background-color: rgb(228, 143, 32); */
 }
 .footerAncher{
     height: 80px;/*to give the dimensions of the square*/
